@@ -1,0 +1,25 @@
+.category{
+   
+    width: 49.4%;
+    height: 49.4%;
+    background-position: center;
+    background-size: cover;
+     display: grid;
+    align-items: center;
+     justify-items: end;
+    overflow: hidden;
+    margin: .1%;
+    &.medium{ 
+    width: 33%;
+    height: 25%;
+    }
+   .content{
+       padding: 2%;
+       &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform .6s ease-in;
+    }  
+      
+   }
+}

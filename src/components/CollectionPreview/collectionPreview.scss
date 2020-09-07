@@ -1,0 +1,21 @@
+.collection-preview{
+    margin: 2% 5%;
+    
+}
+.display-4{
+    margin: 4% 2%;
+    &::after {
+        display: inline-block;
+        content: "";
+        border-top: .3rem solid rgb(107, 133, 206);
+        width: 7rem;
+        margin: 0 ;
+        transform: translateY(2rem);
+    }
+}
+.preview{
+    display: flex;
+    justify-content: space-between;    
+    align-self: auto;
+    align-items: baseline;
+}
